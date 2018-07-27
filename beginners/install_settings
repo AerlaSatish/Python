@@ -1,3 +1,5 @@
+video 1 notes
+
 To make python run in windows
 
 Download Python from https://www.python.org/getit/ and install using download exe file.
@@ -13,4 +15,19 @@ After that check the "easy_install --version" if you dint get repeat the same as
 Because using easy_install only we will add packages now create django project.
 
 
-follow : https://www.youtube.com/watch?v=CHjXtRrhqxc&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK&index=2
+video 2 notes
+
+Create a folder where you want to create a django project and navigate the same path in the cmd.
+
+type "django-admin startproject projectname"
+
+This will create the default proj with the given name.
+
+If you want to work with the editors alredy you have its good otherwise download PYCHARM editor for python and configure git to it
+
+GOTO > VCS > Here you will find all the Git operations to clone , pull and push the project.
+
+
+follow videos : https://www.youtube.com/watch?v=CHjXtRrhqxc&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK&index=2
+
+
