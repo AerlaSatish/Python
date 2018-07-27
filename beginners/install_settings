@@ -19,13 +19,40 @@ video 2 notes
 
 Create a folder where you want to create a django project and navigate the same path in the cmd.
 
-type "django-admin startproject projectname"
+type "django-admin startproject projectname"                                                                                                                               django-admin startproject projectname
 
 This will create the default proj with the given name.
 
 If you want to work with the editors alredy you have its good otherwise download PYCHARM editor for python and configure git to it
 
 GOTO > VCS > Here you will find all the Git operations to clone , pull and push the project.
+
+Run local server to check in the localhost type "python manage.py runserver" from the project folder in cmd                                                                python manage.py runserver
+
+
+Video 3
+
+In this the author explained about the project structure of his website thenewboston.com, he derive every part/module is decalred as app where website is collection of apps in python.
+
+So for us here "beginner" is web application and "music" is web app.
+
+To create app we use "python manage.py startapp app_name"                                                                                                                  python manage.py startapp app_name
+
+
+"Migrations" - are basically way to connect/hookup the website or source code with the database.
+
+"init" - initial package
+
+"admin" -
+
+"apps" - it is a confg file to make a setup for this app
+
+"models" - It is a basically blue print for DB it is a temp of how we are going to use data, it specifies what tables required for this app and each table has its own class.
+
+"test" - It is use for testing for bugs
+
+"views" - They are very easy just python functions as they take request from users and give them back something as response 95% of the time the user can request for their response.
+
 
 
 follow videos : https://www.youtube.com/watch?v=CHjXtRrhqxc&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK&index=2
