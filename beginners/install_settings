@@ -1,0 +1,16 @@
+To make python run in windows
+
+Download Python from https://www.python.org/getit/ and install using download exe file.
+
+After installation check the path in program files if their is folder or not otherwise check "C:\users\appdata\local\programs\python7-32" you will find the path.
+
+Check the environment variables if the path is present or not otherwise replace the path and check the python versin in power shell or cmd using "python --version".
+
+If it successfully installed we will get the version name.
+
+After that check the "easy_install --version" if you dint get repeat the same as above copy the path if script folder from python folder and add in env variables.
+
+Because using easy_install only we will add packages now create django project.
+
+
+follow : https://www.youtube.com/watch?v=CHjXtRrhqxc&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK&index=2
