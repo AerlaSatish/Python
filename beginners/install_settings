@@ -58,3 +58,10 @@ To create app we use "python manage.py startapp app_name"                       
 follow videos : https://www.youtube.com/watch?v=CHjXtRrhqxc&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK&index=2
 
 
+
+
+python manage.py runserver					to start server
+python manage.py migrate					to update changes in the folder
+python manage.py makemigrations portfolio	any edits are made to the model then this need to executed in terminal to update those changes
+python manage.py sqlmigrate portfolio 0001  It creates tables which are written in models.py of app folder(portfolio)
+python manage.py migrate                    Again this needs to be run to update the changes.
